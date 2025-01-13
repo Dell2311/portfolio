@@ -61,7 +61,7 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     if (isClient) {
-      const text = "hsu@jsmastery.pro";
+      const text = "delld2311@gmail.com";
       navigator.clipboard.writeText(text);
       setCopied(true);
       setTimeout(() => setCopied(false), 3000); // Reset copied state after 3 seconds
