@@ -45,7 +45,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-10 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/Web_Shop.png",
+    img: "@/Web_Shop.png",
     spareImg: "/grid.svg",
   },
   {
@@ -65,7 +65,7 @@ export const projects = [
     id: 1,
     title: "Web Shop Project(Work in progress)",
     des: "A first try at doing a Energy Drink Web Shop",
-    img: "/Web_Shop.png",
+    img: "./Web_Shop.png",
     iconLists: ["/tail.svg", "/ts.svg"],
     link: "https://github.com/Dell2311/EnergyWebshop",
   },
@@ -75,7 +75,7 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
+    img: "portfolio/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
