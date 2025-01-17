@@ -2,7 +2,8 @@ import { withSentryConfig } from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: '/portfolio',
+    //assetPrefix: '/portfolio',
+    basePath: '/portfolio',
     typescript: {
         ignoreBuildErrors: true,
     }
