@@ -34,8 +34,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "@/grid.svg",
-    spareImg: "@/b4.svg",
+    img: "./grid.svg",
+    spareImg: "/b4.svg",
   },
 
   {
@@ -46,7 +46,7 @@ export const gridItems = [
     imgClassName: "absolute right-10 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "@/Web_Shop.png",
-    spareImg: "@/grid.svg",
+    spareImg: "/grid.svg",
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ export const projects = [
     id: 1,
     title: "Web Shop Project(Work in progress)",
     des: "A first try at doing a Energy Drink Web Shop",
-    img: "@/Web_Shop.png",
+    img: "./Web_Shop.png",
     iconLists: ["/tail.svg", "/ts.svg"],
     link: "https://github.com/Dell2311/EnergyWebshop",
   },
@@ -75,32 +75,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "@/cloud.svg",
-    nameImg: "@/cloudName.svg",
+    img: "portfolio/cloud.svg",
+    nameImg: "/cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "@/app.svg",
-    nameImg: "@/appName.svg",
+    img: "./app.svg",
+    nameImg: "/appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "@/host.svg",
-    nameImg: "@/hostName.svg",
+    img: "/host.svg",
+    nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "@/s.svg",
-    nameImg: "@/streamName.svg",
+    img: "/s.svg",
+    nameImg: "/streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "@/dock.svg",
-    nameImg: "@/dockerName.svg",
+    img: "/dock.svg",
+    nameImg: "/dockerName.svg",
   },
 ];
 
@@ -110,36 +110,36 @@ export const workExperience = [
     title: "Software Engineer Intern",
     desc: "Assisted in setting up new PC's and developed my first Web App",
     className: "md:col-span-2",
-    thumbnail: "@/exp1.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Software Engineer trainee - Teijin Carbon",
     desc: "Designed and developed Web app for both using XData.",
     className: "md:col-span-2",
-    thumbnail: "@/exp2.svg",
+    thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Experience in Web Development",
     desc: "Experience in Web development with react, xdata and ASP .NET.",
     className: "md:col-span-2", 
-    thumbnail: "@/exp3.svg",
+    thumbnail: "/exp3.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "@/git.svg",
+    img: "/git.svg",
     link: "https://github.com/Dell2311",
   },
   {
     id: 2,
-    img: "@/twit.svg",
+    img: "/twit.svg",
   },
   {
     id: 3,
-    img: "@/link.svg",
+    img: "/link.svg",
   },
 ];
